@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Robozebra: Slack notifikacni sluzba pro Zonky.cz (iPhone, iOS, Windows Phone, Windows Mobile, Android)">
+	<meta name="keywords" content="Zonky.cz, Zonky, Slack, Notifikace, iPhone, iOS, Windows Phone, Windows Mobile, Android">
+	<title>Robozebra: Jak na to</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/mobile.js"></script>
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-88794249-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html" class="logo">
+			<img src="images/logo.jpg" alt="">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="index.html">home</a>
+			</li>
+			<li class="selected">
+				<a href="howto.html">jak na to</a>
+			</li>
+			<li>
+				<a href="https://robozebra.slack.com/">slack</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<h1><span>Začínáme s Robozebrou</span></h1>
+		<div>
+			<div class="article">
+				<h3>Úvod</h3>
+				<p>
+					Robozebra se každých 10 sekund dívá na tržiště <a href="https://app.zonky.cz/#/marketplace/">Zonky</a>, zda se objevily nové půjčky.
+					Pokud ano, podle ratingu pošle pro každou z nich notifikaci do patřičného kanálu na <a href="https://robozebra.slack.com/">Robozonky Slack</a>.
+					Tak si můžete snadno ve vaší Slack apliaci nastavit, na které půjčky, podle ratingu, si přejete být upozorněni.
+				</p>
+				<h3>Řekněte si o pozvánku</h3>
+				<p>
+					Pokud máte jednu z následujícich emailových adres <code>@volny.cz, @seznam.cz, @email.cz, @atlas.cz, @centrum.cz, @post.cz</code>, pozvánku nepotřebujete, můžete se jednoduše samoregistrovat na Robozonky Slack podle návodu níže.
+				</p>
+				<p>
+					Jinak si požádejte o pozvánku na <a href="https://www.facebook.com/robozebra/">Facebooku Robozebry</a>.
+				</p>
+				<h3>Jak začít se Slackem</h3>
+				<p>
+					Slack má k dispozici klienty pro mnoho běžně používaných platforem. Z mobilů pokrývá iPhone, Android i Windows.
+					Desktopové aplikace nabízí pro Mac, Windows a Linux. Samozřejmostí je i webové rozhraní.
+					Zde si stručně ukážeme použití na iPhone.
+				</p>
+				<h3>Instalace Slacku</h3>
+				<p>
+					Slack je dostupupný v App Storu. Najděte, nainstalujte:<br/>
+					<img src="images/slack_install.png" alt="">
+				</p>
+				<h3>Registrace</h3>
+				<p>
+					<p>
+					Spusťte Slack a <i>Zvolte Sign in to an existing team</i>:<br/>
+					<img src="images/slack_first_run.png" alt="">
+					</p>
+					
+					<p>
+					Zadejte doménu <b>robozebra.slack.com</b>:<br/>
+					<img src="images/slack_login_domain.png" alt="">
+					</p>
+					
+					<p>
+					Uveďte vaši emailovou adresu:<br/>
+					<i>Samoregistrace je možná pouze pokud máte emailovou adresu @volny.cz, @seznam.cz, @email.cz, @atlas.cz, @centrum.cz nebo @post.cz. Pokud používáte jiný email, <b>řekněte si o pozvánku na <a href="https://www.facebook.com/robozebra/">Facebooku Robozebry</a></b>.</i>
+					<img src="images/slack_login_email.png" alt="">
+					</p>
+					
+					<p>
+					A nechte si zaslat magický link pro snadné přihlášení:<br/>
+					<img src="images/slack_login_magiclink.png" alt="">
+					</p>
+					
+					<p>
+					Po chvilce dotanete email s magickým linkem. Klikněte na něj a pak potvrďte spuštění Slacku.<br/>
+					<img src="images/slack_login_linkopen.png" alt="">
+					Hurá, jste ve Slacku!
+					</p>
+				</p>
+				<h3>Nastavení notifikací</h3>
+				<p>
+					Nyní, podle ratingů, které vás zajímají, už jen vyberete příslušné kanály a vstoupíte do nich.
+					Pak už vás Robozebra bude upozorňovat na nové půjčky.<br/>
+					<img src="images/slack_channels.png" alt="">
+				</p>
+				<h4>Úspěšné investování!</h4>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>&copy; 2017 by Zebra, Robot &amp; Radek. All rights reserved.</p>
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/robozebra/" id="facebook">facebook</a>
+				</li>
+<!--
+				<li>
+					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+				</li>
+				<li>
+					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+				</li>
+-->
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
